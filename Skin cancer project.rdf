@@ -1,0 +1,730 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13/"
+     xml:base="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Arise_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Arise_in"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Caused_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Caused_by"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Detected_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Detected_in"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Found_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Found_on"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLObjectProperty_003311 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLObjectProperty_003311">
+        <rdfs:label xml:lang="en">Detected by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLObjectProperty_003312 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLObjectProperty_003312">
+        <rdfs:label xml:lang="en">Type of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLObjectProperty_003313 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLObjectProperty_003313">
+        <rdfs:label xml:lang="en">classified into</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLObjectProperty_003314 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLObjectProperty_003314">
+        <rdfs:label xml:lang="en">Treated by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLObjectProperty_003315 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLObjectProperty_003315">
+        <rdfs:label xml:lang="en">Avoided by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLObjectProperty_003316 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLObjectProperty_003316">
+        <rdfs:label xml:lang="en">Involves</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Observed_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Observed_in"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Area_of_Occurance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Area_of_Occurance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Biological_Therapies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Biological_Therapies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Treatment_Options"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Biological_factors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Biological_factors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Chemotherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Chemotherapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Treatment_Options"/>
+        <rdfs:comment>Chemotherapy (chemo) uses drugs that kill cancer cells.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Compromised_immunity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Compromised_immunity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Biological_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Electro_Dessication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Electro_Dessication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Treatment_Options"/>
+        <rdfs:comment>Electrodesiccation, also known as a curettage and desiccation, is a skin cancer treatment used to remove basal cell and squamous cell carcinomas.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Exposure_to_trace_elements_like_Arsenic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Exposure_to_trace_elements_like_Arsenic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Non_biological_factors"/>
+        <rdfs:comment>Prolonged exposure to trace elements like arsenic leads to skin cancer</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Factors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Factors"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Family_History -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Family_History">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Biological_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Immunotherapies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Immunotherapies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Biological_Therapies"/>
+        <rdfs:comment>A type of therapy that uses substances to stimulate or suppress the immune system to help the body fight cancer</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Indoor_tanning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Indoor_tanning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Non_biological_factors"/>
+        <rdfs:comment>usage of indoor tanning beds leads to skin cancer.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Mutation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Mutation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Biological_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Nano_particles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Nano_particles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Treatment_Options"/>
+        <rdfs:comment>Nanoparticles can be channeled in cancer therapy to encapsulate active pharmaceutical ingredients and deliver them to the tumor site in a more efficient manner</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Non_biological_factors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Non_biological_factors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003271 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003271">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Caused_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Factors"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLObjectProperty_003311"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003275"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLObjectProperty_003314"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Treatment_Options"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLObjectProperty_003315"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003274"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLObjectProperty_003316"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003272"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The abnormal growth of skin cells</rdfs:comment>
+        <rdfs:label xml:lang="en">Skin Cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003272 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003272">
+        <rdfs:comment>The type of cells  that contributes to the overall structure and function of the skin.</rdfs:comment>
+        <rdfs:label xml:lang="en">Skin Cells</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003274 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003274">
+        <rdfs:label xml:lang="en">Preventive Measures</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003275 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003275">
+        <rdfs:comment>Different methods for diagnosis of skin cancer.</rdfs:comment>
+        <rdfs:label xml:lang="en">Diagnostic Methods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003285 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003285">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003275"/>
+        <rdfs:comment>A dermatoscope is a handheld magnification tool and light source which eliminates skin surface reflection, and can help assessment of skin lesions with visualisation of deeper subsurface structures</rdfs:comment>
+        <rdfs:label xml:lang="en">Dermoscopy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003286 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003286">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003275"/>
+        <rdfs:comment>An ultrasonography (also known as ultrasound, sonography, or sonogram) helps doctors look for tumors in certain areas of the body that don&apos;t show up well on x-rays.  Ultrasounds are usually quick and most don&apos;t require special preparation.</rdfs:comment>
+        <rdfs:label xml:lang="en">HF Ultrasonography</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003287 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003287">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003275"/>
+        <rdfs:comment>Optical coherence tomography (OCT) is a non-invasive optical imaging technique that uses low-power infrared laser light to image up to 2 mm beneath the skin surface.</rdfs:comment>
+        <rdfs:label xml:lang="en">OC Tomograpgy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003288 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003288">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003275"/>
+        <rdfs:comment>The application of the principles of telemedicine to dermatology is referred to as teledermatology.</rdfs:comment>
+        <rdfs:label xml:lang="en">Teledermatology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003289 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003289">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003275"/>
+        <rdfs:comment>Reflectance confocal microscopy (RCM) is a noninvasive high-resolution skin imaging tool.</rdfs:comment>
+        <rdfs:label xml:lang="en">RC Microscopy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003290 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003290">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003275"/>
+        <rdfs:comment>Mole mate is a painless, non-invasive and fast diagnostic tool for screening moles on body.</rdfs:comment>
+        <rdfs:label xml:lang="en">MoleMate System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003292 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003292">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003274"/>
+        <rdfs:comment>Use of sun screen lotions.</rdfs:comment>
+        <rdfs:label xml:lang="en">Sunscreen lotion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003293 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003293">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003274"/>
+        <rdfs:comment>Having a full clothing to cover most of the body.</rdfs:comment>
+        <rdfs:label xml:lang="en">Full Clothing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003294 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003294">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003274"/>
+        <rdfs:comment>Avoiding direct exposure of skin to sun.</rdfs:comment>
+        <rdfs:label xml:lang="en">Avoid Sun Exposure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003295 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003295">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003271"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Arise_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#face"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLObjectProperty_003312"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003271"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Melanoma is a cancer that begins in the melanocytes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Melanoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003296 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003296">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003271"/>
+        <rdfs:comment>Non-melanoma skin cancer refers to a group of cancers that slowly develop in the upper layers of the skin. It has no involvement with melanocytes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Non-Melanoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003297 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003297">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003296"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Arise_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#head"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Arise_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#limbs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Arise_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#neck"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Arise_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#trunk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>It arise from abnormal, uncontrolled growth of basal cells.</rdfs:comment>
+        <rdfs:label xml:lang="en">Basal Cell Carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003298 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003298">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003296"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Arise_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#ears"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Arise_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#face"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Arise_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#limbs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Arise_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#neck"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Arise_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#scalp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Squamous cell carcinoma of the skin is a common form of skin cancer that develops in the squamous cells that make up the middle and outer layers of the skin. Squamous cell carcinoma of the skin is usually not life-threatening, though it can be aggressive.</rdfs:comment>
+        <rdfs:label xml:lang="en">Squamous Cell Carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003299 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003299">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003297"/>
+        <rdfs:comment>Nodular basal cell carcinoma is clinically manifested as a translucent nodule, often with small vessels being very evident.</rdfs:comment>
+        <rdfs:label xml:lang="en">Nodular</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003300 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003300">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003297"/>
+        <rdfs:comment>The micronodular variant is an aggressive type of Basal cell carcinoma that is liable to recurrence and difficult to eradicate. Clinically, micronodular Basal cell carcinoma typically presents as a poorly defined infiltrated flat lesion that rarely ulcerates.</rdfs:comment>
+        <rdfs:label xml:lang="en">Micro-Nodular</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003301 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003301">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003295"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Found_on"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#head"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Found_on"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#neck"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>is a type of melanoma cancer that can mimic benign conditions, including blood blisters and acne. It&apos;s also one of the more invasive skin cancers since it mostly grows beneath the skin, where it can&apos;t be seen.</rdfs:comment>
+        <rdfs:label xml:lang="en">Nodular Melanoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003302 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003302">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003295"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Observed_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Palms"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Observed_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Soles"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>It is a subtype of melanoma and commonly presents as an irregular brown macule on chronically sun-damaged skin, particularly the head and neck, in the elderly.</rdfs:comment>
+        <rdfs:label xml:lang="en">Lentigo Maligna</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003303 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003303">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003295"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Detected_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Under_Nails"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>It is a type melanoma occurring on the hands and feet (palms, soles, fingers, toes, and nail units).</rdfs:comment>
+        <rdfs:label xml:lang="en">Acral Lentiginous Melanoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003304 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003304">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003272"/>
+        <rdfs:comment>Cancer cells are cells that divide continually, forming solid tumors or flooding the blood or lymph with abnormal cells</rdfs:comment>
+        <rdfs:label xml:lang="en">Cancerious</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003306 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003306">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#OWLClass_003272"/>
+        <rdfs:comment>These are the healthy cells that have normal multiplying properties and normal cell functioning.</rdfs:comment>
+        <rdfs:label xml:lang="en">Non-Cancerious</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Palms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Palms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Area_of_Occurance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Prolonged_Sun_exposure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Prolonged_Sun_exposure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Non_biological_factors"/>
+        <rdfs:comment>Prolonged exposure to sun also leads to skin cancer</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Protein_Based -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Protein_Based">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Treatment_Options"/>
+        <rdfs:comment>Protein therapy is a form of treatment that involves sending in well-structured proteins to a precise target location to repair or replace damaged ones</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Radiation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Radiation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Non_biological_factors"/>
+        <rdfs:comment>Prolonged exposure to U.V. or some other radio active elemets radiation leads to skin cancer.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Radiotherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Radiotherapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Treatment_Options"/>
+        <rdfs:comment>The radiation therapy is used to treat skin cancers, the radiation is focused from outside the body onto the tumor.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Soles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Soles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Area_of_Occurance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Stem_cells -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Stem_cells">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Biological_Therapies"/>
+        <rdfs:comment>Stem cell transplants are used to replace bone marrow cells that have been destroyed by cancer</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Surgical_excision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Surgical_excision">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Treatment_Options"/>
+        <rdfs:comment>It is a skin cancer treatment that surgically removes malignant moles, lesions and tumors from the skin along with a healthy margin around the tumor</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Treatment_Options -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Treatment_Options"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Under_Nails -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Under_Nails">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Area_of_Occurance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#ears -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#ears">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Area_of_Occurance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#face -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#face">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Area_of_Occurance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#head -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#head">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Area_of_Occurance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#limbs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#limbs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Area_of_Occurance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#neck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#neck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Area_of_Occurance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#scalp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#scalp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Area_of_Occurance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#trunk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#trunk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pokur/ontologies/2023/3/untitled-ontology-13#Area_of_Occurance"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.24.2023-01-14T21:28:32Z) https://github.com/owlcs/owlapi -->
+
